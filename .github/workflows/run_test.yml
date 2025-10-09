@@ -32,4 +32,9 @@ jobs:
       - name: Generate Coverage Report
         run: |
           coverage report -m
-      
+
+  dummy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dummy Step
+        run: echo "This is a dummy job for testing."
