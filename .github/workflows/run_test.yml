@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.9", "3.10", "3.11"]  # 多版本并行，便于看到多个 job
+        python-version: ["3.10", "3.11"]  # 多版本并行，便于看到多个 job
     steps:
       - uses: actions/checkout@v3
 
